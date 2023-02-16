@@ -1,0 +1,18 @@
+.header {
+  gap: 20%;
+  height: 8vh;
+  display: flex;
+  font-size: 1.1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(47, 161, 218, 1);
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(244, 232, 209, 1);
+}
+.link.active {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}

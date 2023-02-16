@@ -1,0 +1,25 @@
+.currency_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  align-self: flex-start;
+}
+.input {
+  align-self: center;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid blue;
+  padding: 5px 10px;
+  min-width: 300px;
+}
+.input::placeholder {
+  color: grey;
+}
+.list_container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  align-items: center;
+}
