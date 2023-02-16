@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/currency-app/static/css/main.1f74ff56.css",
+    "main.js": "/currency-app/static/js/main.d25c5952.js",
+    "index.html": "/currency-app/index.html",
+    "static/media/less.svg": "/currency-app/static/media/less.c404c6f5c6924db35beb4ab8a73408f5.svg",
+    "static/media/more.svg": "/currency-app/static/media/more.fedbbfa23b2be68782217c3381d9f0d9.svg",
+    "main.1f74ff56.css.map": "/currency-app/static/css/main.1f74ff56.css.map",
+    "main.d25c5952.js.map": "/currency-app/static/js/main.d25c5952.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f74ff56.css",
+    "static/js/main.d25c5952.js"
+  ]
+}
