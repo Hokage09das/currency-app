@@ -1,4 +1,5 @@
 import React, { useCallback, useState } from "react";
+import { HiSwitchHorizontal } from "react-icons/hi";
 import { LessIcon, MoreIcon } from "../../../assets/icons";
 
 import "./currency_item.scss";
@@ -25,12 +26,18 @@ export const CurrencyItem = ({ CharCode, Previous, Value, Name, Nominal }) => {
 
   return (
     <div className='item_container'>
-      <p>
+      <p className='item_charcode'>
         {CharCode} {rub}
         {isTrue ? (
-          <strong onClick={returnback}> {"->"}</strong>
+          <HiSwitchHorizontal
+            size='15px'
+            onClick={returnback}
+          />
         ) : (
-          <strong onClick={convert}> {"<-"} </strong>
+          <HiSwitchHorizontal
+            size='15px'
+            onClick={convert}
+          />
         )}
         RUB {charCode}
       </p>

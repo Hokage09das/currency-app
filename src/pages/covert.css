@@ -41,24 +41,20 @@
 }
 .result {
   box-sizing: border-box;
-  /* width: 800px; */
   padding-left: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
 }
-.button {
-  width: 100px;
-  height: 30px;
-  font-weight: bold;
+.result p {
   font-size: 20px;
-  border: 2px solid forestgreen;
-  background-color: rgb(226, 252, 184);
-  cursor: pointer;
-}
-.p,
-h3,
-button,
-switch {
+  text-decoration: underline;
+  text-underline-offset: 5px;
   color: forestgreen;
 }
-.p {
-  font-size: 30px;
+
+.p,
+h3,
+switch {
+  color: forestgreen;
 }

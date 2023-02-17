@@ -6,6 +6,7 @@
   border-radius: 10px;
   padding: 10px 20px;
   gap: 5px;
+  align-self: center;
 }
 .item {
   display: flex;
@@ -13,8 +14,13 @@
   font-weight: 400;
   gap: 50px;
 }
-strong {
-  cursor: pointer;
+
+.item_charcode {
+  display: flex;
+  align-items: center;
+  svg {
+    cursor: pointer;
+  }
 }
 @media screen and (max-width: 400px) {
   .item {

@@ -94,7 +94,7 @@ export function Convert() {
         </div>
       </div>
       <div className='result'>
-        <h2>Converted Amount:</h2>
+        <h4>Converted Amount:</h4>
         <p className='.p'>
           {input + " " + to + " = " + output.toFixed(2) + " " + from}
         </p>
