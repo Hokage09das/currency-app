@@ -3,14 +3,21 @@
   flex-direction: column;
   background-color: rgba(240, 238, 238, 1);
   max-width: 500px;
-  min-width: 400px;
   border-radius: 10px;
   padding: 10px 20px;
-  gap: 10px;
+  gap: 5px;
 }
 .item {
   display: flex;
   font-size: 18px;
   font-weight: 400;
   gap: 50px;
+}
+strong {
+  cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+  .item {
+    gap: 10px;
+  }
 }

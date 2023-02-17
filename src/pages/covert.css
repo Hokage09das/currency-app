@@ -1,23 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 .App {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 120px;
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 .heading {
   font-family: "Pacifico", cursive;
   font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .container {
   height: 300px;
-  width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -38,7 +41,7 @@
 }
 .result {
   box-sizing: border-box;
-  width: 800px;
+  /* width: 800px; */
   padding-left: 30px;
 }
 .button {

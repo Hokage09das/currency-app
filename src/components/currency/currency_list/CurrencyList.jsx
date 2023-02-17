@@ -13,7 +13,7 @@ export const CurrencyList = () => {
 
   const { data } = useGetAllDailyQuery();
 
-  const debaunce = useDebounce(name, 500);
+  const debaunce = useDebounce(name.toLowerCase(), 500);
 
   useEffect(() => {
     const currencyData = [];
