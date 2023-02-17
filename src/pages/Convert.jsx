@@ -41,6 +41,10 @@ export function Convert() {
     setTo(temp);
   }
 
+  const submitHandler = (e) => {
+    e.preventDefault();
+  };
+
   useEffect(() => {
     convert();
     if (example) {
@@ -56,11 +60,13 @@ export function Convert() {
       <div className='container'>
         <div className='left'>
           <h3>Amount</h3>
-          <input
-            type='number'
-            placeholder='Enter the amount'
-            onChange={(e) => setInput(e.target.value)}
-          />
+          <form onSubmit={submitHandler}>
+            <input
+              type='number'
+              placeholder='Enter the amount'
+              onChange={(e) => setInput(e.target.value)}
+            />
+          </form>
         </div>
         <div className='middle'>
           <h3>From</h3>
